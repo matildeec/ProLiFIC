@@ -18,7 +18,7 @@ ProLiFIC has been built using an automated pipeline exploiting Large Language Mo
 
 
 
-While PM has traditionally been used in business and industrial contexts, its application to social and legal systems has been limited mainly due to the scarcity of suitable data. ProLiFIC aims to fill this gap by providing a large-scale, reproducible benchmark for legal PM and interdisciplinary research at the intersection of **law, data science**, and **governance**.
+While PM has traditionally been used in business and industrial contexts, its application to social and legal systems has been limited. One of the reasons is the scarcity of suitable data. ProLiFIC aims to fill this gap by providing a large-scale, reproducible benchmark for legal PM and interdisciplinary research at the intersection of **law, data science**, and **governance**.
 
 ## Repository Contents
 
