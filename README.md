@@ -92,7 +92,7 @@ More details can be found in the paper linked at the bottom of this page
 
 ### `ProLiFIC_error_cases.txt`
 
-A plain-text list of problematic `case_id`s, from legislatures X–XVIII (1987–2022). These were either:
+A plain-text list of problematic `case_id`s. These were either:
 
 - **Corrected** manually (e.g., malformed HTML, inconsistent dates), or  
 - **Excluded** due to irrecoverable structural issues (e.g., missing event chains).
