@@ -12,6 +12,7 @@ __Test it online without any installation required!__
 
 ## Overview
 
+### ProLiFIC's content and contex
 **ProLiFIC (Procedural Lawmaking Flow in Italian Chambers)** is a comprehensive dataset documenting the Italian legislative process from 1987 to 2022, spanning from **Legislature X (1987–1992)** to **Legislature XVIII (2018–2022)**.
 - ProLiFIC has been built using unstructured textual data (_preparatory works_) available in [Normattiva](https://www.normattiva.it/), the official Italian legal archive:
   - As of the time of writing, these are all the complete legislatures available in Normattiva which have been equipped with _Preparatory works_
