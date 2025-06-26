@@ -26,7 +26,7 @@ __Test it online without any installation required!__
   - See, e.g., the workshop series on [Natural Language Processing for Business Process Management](https://sites.google.com/view/nlp4bpm2025/) and on [Generative AI for Process Mining](https://www.genai4pm2024.info/)
 
 
-
+### Contribution to the Business Process Management (BPM) field
 While PM has traditionally been used in business and industrial contexts, its application to social and legal systems has been limited. One of the reasons is the scarcity of suitable data. ProLiFIC aims to fill this gap by providing a large-scale, reproducible benchmark for legal PM and interdisciplinary research at the intersection of **law, data science**, and **governance**.
 
 ## Repository Contents
