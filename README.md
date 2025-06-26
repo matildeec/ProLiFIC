@@ -86,7 +86,7 @@ A plain-text list of problematic `case_id`s, mainly from legislatures X–XVIII 
 
 ---
 
-### `ProLiFIC_preprocessing.ipynb`
+### `ProLiFIC_EDA.ipynb`
 
 A Jupyter notebook that demonstrates:
 
@@ -97,8 +97,8 @@ A Jupyter notebook that demonstrates:
 ```python
 import pandas as pd
 
-metadata = pd.read_csv("ProLiFIC_metadata.csv")
-event_log = pd.read_csv("ProLiFIC_event_log.csv")
+metadata = pd.read_csv("data/ProLiFIC_metadata.csv")
+event_log = pd.read_csv("data/ProLiFIC_event_log.csv")
 
 # Join metadata and event logs on case_id
 df = pd.merge(event_log, metadata, on="case_id")
@@ -134,7 +134,7 @@ If you use the ProLiFIC dataset in academic or applied research, please cite it 
   booktitle    = {BPM 2025 Demos \& Resources Forum, part of BPM 2025},
   year         = {2025},
   url          = {[]},
-  note         = {Dataset available at \url{[}. Under review for BPM 2025 Demos \& Resources Forum.}
+  note         = {Dataset available at \url{[]}. Under review for BPM 2025 Demos \& Resources Forum.}
 }
 ```
 📌 Note: This dataset is part of a paper currently under review at the BPM 2025 Demos & Resources Forum. We will update this citation with a DOI and formal reference once available
