@@ -93,19 +93,33 @@ df = pd.merge(event_log, metadata, on="case_id")
 
 ### `License`
 
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
-You are free to share and adapt the material for any purpose, even commercially, provided you give appropriate credit.
+This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
+You are free to **share** and **adapt** the material for any purpose, even commercially, provided you give appropriate credit.
+
+> © 2025 Sant’Anna School of Advanced Studies Pisa, and contributors to the ProLiFIC dataset.  
+> This dataset is provided *as is*, without warranties of any kind. While every effort has been made to ensure the accuracy and consistency of the data, **ProLiFIC may contain errors, omissions, or artifacts inherited from the source documents**.
+
+Legal texts were derived from [Normattiva](https://www.normattiva.it/), the official Italian legal archive. According to Normattiva:
+
+> *"La riproduzione dei testi forniti nel formato elettronico è consentita purché venga menzionata la fonte, il carattere non autentico e gratuito."*  
+> (*The reproduction of texts in electronic format is allowed, provided that the source is mentioned and the non-authentic and free-of-charge nature is indicated.*)
+
+We acknowledge and respect these terms by citing Normattiva and clearly indicating that **ProLiFIC is a derived, non-authentic resource** intended for research and academic use only.
 
 ---
 
 ### `Citation`
 
-If you use ProLiFIC in academic or applied research, please cite as:
+If you use the ProLiFIC dataset in academic or applied research, please cite it as follows:
 
-```less
-ProLiFIC: Procedural Lawmaking Flow in Italian Chambers (1987–2023).  
-Authors: [Insert Author Names].  
-Version: [v1.0 or appropriate version]  
-Available at: https://github.com/[your-org]/ProLiFIC  
-License: CC BY 4.0
-```
+```bibtex
+@inproceedings{2025prolific,
+  title        = {The ProLiFIC Dataset: Leveraging LLMs to Unveil the Italian Lawmaking Process},
+  author       = {Matilde Contestabile and Chiara Ferrara and Alberto Giovannetti and Giovanni Parrillo and Andrea Vandin},
+  booktitle    = {BPM 2025 Demos \& Resources Forum, part of BPM 2025},
+  year         = {2025},
+  url          = {[]},
+  note         = {Dataset available at \url{[}. Under review for BPM 2025 Demos \& Resources Forum.}
+}
+
+📌 Note: This dataset is part of a paper currently under review at the BPM 2025 Demos & Resources Forum. We will update this citation with a DOI and formal reference once available
