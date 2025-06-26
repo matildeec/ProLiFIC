@@ -2,8 +2,8 @@
 
 # ProLiFIC Dataset: Procedural Lawmaking Flow in Italian Chambers
 
-## Test it online without any installation required!
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matildeec/ProLiFIC/ProLiFIC_EDA.ipynb)
+## Test it online without any installation required! [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matildeec/ProLiFIC/ProLiFIC_EDA.ipynb)
+
 
 ## Overview
 
