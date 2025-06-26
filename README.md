@@ -2,6 +2,9 @@
 
 # ProLiFIC Dataset: Procedural Lawmaking Flow in Italian Chambers
 
+## Test it online without any installation required!
+- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matildeec/ProLiFIC/ProLiFIC_EDA.ipynb)
+
 ## Overview
 
 **ProLiFIC (Procedural Lawmaking Flow in Italian Chambers)** is a comprehensive dataset documenting the Italian legislative process from 1987 to 2022, spanning from **Legislature X (1987–1992)** to **Legislature XVIII (2018–2022)**.
