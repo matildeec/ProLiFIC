@@ -78,7 +78,7 @@ Each row corresponds to a legislative event. The fields are:
 | Attribute       | Description                                                                 |
 |-----------------|-----------------------------------------------------------------------------|
 | `case_id`       | Unique identifier for the law (foreign key to `ProLiFIC_metadata.csv`)      |
-| `chamber`       | Legislative chamber: `Camera` (Lower House) or `Senato` (Upper House)       |
+| `chamber`       | Legislative chamber: `Camera` (Chamber of deputies) or `Senato` (Senate)       |
 | `activity_it`   | Type of legislative action in Italian (e.g., `presentazione`, `approvazione`)|
 | `activity_en`   | English translation of the action type                                      |
 | `time`          | Date of the activity (day-level granularity)                                |
@@ -92,7 +92,7 @@ More details can be found in the paper linked at the bottom of this page
 
 ### `ProLiFIC_error_cases.txt`
 
-A plain-text list of problematic `case_id`s, mainly from legislatures X–XVIII (1987–2022). These were either:
+A plain-text list of problematic `case_id`s, from legislatures X–XVIII (1987–2022). These were either:
 
 - **Corrected** manually (e.g., malformed HTML, inconsistent dates), or  
 - **Excluded** due to irrecoverable structural issues (e.g., missing event chains).
