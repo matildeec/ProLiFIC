@@ -7,7 +7,7 @@
 Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC converts unstructured legislative records into structured, machine-readable event logs.
 
 ProLiFIC has been built using unstructured textual data (_preparatory works_) available in [Normattiva](https://www.normattiva.it/). 
-- As of the time of writing, these are all the complete legislatures available in Normattivae and quipped with _Preparatory works_
+- As of the time of writing, these are all the complete legislatures available in Normattiva and equipped with _Preparatory works_
 - We plan to update the dataset we data on newly completed legislatures will be available
 
 
