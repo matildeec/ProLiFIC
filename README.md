@@ -2,9 +2,11 @@
 
 ## Overview
 
-**ProLiFIC (Procedural Lawmaking Flow in Italian Chambers)** is a comprehensive dataset documenting the Italian legislative process from 1987 to 2023. Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC converts unstructured legislative records into structured, machine-readable event logs.
+**ProLiFIC (Procedural Lawmaking Flow in Italian Chambers)** is a comprehensive dataset documenting the Italian legislative process from 1987 to 2022, spanning from **Legislature X (1987–1992)** to **Legislature XVIII (2018–2022)**.
 
-While PM has traditionally been used in business and industrial contexts, its application to social and legal systems has grown—limited mainly by the scarcity of suitable data. ProLiFIC fills this gap, providing a large-scale, reproducible benchmark for legal process mining and interdisciplinary research at the intersection of law, data science, and governance.
+Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC converts unstructured legislative records into structured, machine-readable event logs.
+
+While PM has traditionally been used in business and industrial contexts, its application to social and legal systems has grown—limited mainly by the scarcity of suitable data. ProLiFIC fills this gap, providing a large-scale, reproducible benchmark for legal process mining and interdisciplinary research at the intersection of **law, data science**, and **governance**.
 
 ## Repository Contents
 
@@ -20,7 +22,7 @@ This repository includes:
   A Jupyter notebook for exploratory data analysis of the ProLiFIC dataset. It includes loading and merging metadata with event logs, parsing timestamps, generating descriptive statistics, calculating case durations, and producing visualizations to support process mining and institutional research.
 
 - **`ProLiFIC_error_cases.txt`**  
-  A plain-text list of `case_id`s that were either corrected or excluded due to formatting and structural issues—primarily from legislatures X–XVIII.
+  A plain-text list of `case_id`s that were either corrected or excluded due to formatting and structural issues from legislatures X–XVIII.
 
 ---
 
