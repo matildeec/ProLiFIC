@@ -67,6 +67,8 @@ Each row corresponds to a single legislative case. The fields are:
 | `description`         | Summary of the law’s content and intent                                     |
 | `full_text_url`       | Link to the full legal text on Normattiva                                   |
 
+More details can be found in the paper linked at the bottom of this page
+
 ---
 
 ### `ProLiFIC_event_log.csv`
@@ -83,6 +85,8 @@ Each row corresponds to a legislative event. The fields are:
 | `committee`     | Committee involved in the event (if applicable)                             |
 | `person`        | Sponsor, speaker, or institutional actor involved                           |
 | `chunk`         | Textual snippet related to the legislative activity (speech or document)    |
+
+More details can be found in the paper linked at the bottom of this page
 
 ---
 
