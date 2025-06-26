@@ -10,10 +10,10 @@
   - We plan to update the dataset when data on newly completed legislatures will be available
 
 
-Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC aligns with recent trends in **Legal PM**
+Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC aligns with recent trends in **Legal PM**:
 - See, e.g., [Challenges in Legal Process Discovery](https://ceur-ws.org/Vol-2952/paper_302a.pdf)
 
-ProLiFIC has been built using an automated pipeline exploiting Large Language Models (LLM), aligning with recent trends aiming at **integrating PM and LLM**. We use LLM to convert unstructured legislative records into structured, machine-readable event logs.
+ProLiFIC has been built using an automated pipeline exploiting Large Language Models (LLM), aligning with recent trends aiming at **integrating PM and LLM**. We use LLMs to convert unstructured legislative records into structured, machine-readable event logs:
 - See, e.g., the workshop series on [Natural Language Processing for Business Process Management](https://sites.google.com/view/nlp4bpm2025/) and on [Generative AI for Process Mining](https://www.genai4pm2024.info/)
 
 
