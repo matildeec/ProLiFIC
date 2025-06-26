@@ -1,3 +1,5 @@
+[![License: CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 # ProLiFIC Dataset: Procedural Lawmaking Flow in Italian Chambers
 
 ## Overview
@@ -46,15 +48,15 @@ Each row corresponds to a single legislative case. The fields are:
 |-----------------------|-----------------------------------------------------------------------------|
 | `case_id`             | Unique identifier for the law                                               |
 | `title`               | Official title of the law                                                   |
-| `articles`            | Number of articles in the law                                               |
+| `legislature`         | Legislature number (e.g., X, XI, ..., XVIII)                                |
+| `government`          | Name of the government in office during proposal or approval                |
 | `publishing_date`     | Date of publication in the *Gazzetta Ufficiale*                             |
 | `implementation_date` | Date the law takes effect (typically 15 days after publication)             |
 | `decree_conversion`   | Indicates whether the law is a conversion of a decree-law                   |
 | `eu_ratification`     | Indicates whether the law responds to EU directives or regulations          |
+| `articles`            | Number of articles in the law                                               |
 | `description`         | Summary of the law’s content and intent                                     |
 | `full_text_url`       | Link to the full legal text on Normattiva                                   |
-| `legislature`         | Legislature number (e.g., X, XI, ..., XVIII)                                |
-| `government`          | Name of the government in office during proposal or approval                |
 
 ---
 
@@ -103,10 +105,11 @@ df = pd.merge(event_log, metadata, on="case_id")
 ```
 ---
 
-### `License`
+## License
 
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
-You are free to **share** and **adapt** the material for any purpose, even commercially, provided you give appropriate credit.
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
+You are free to share and adapt the material, **as long as it is not for commercial purposes**, and provided that you give appropriate credit.  
+See the full license details at: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 > © 2025 Sant’Anna School of Advanced Studies Pisa, and contributors to the ProLiFIC dataset.  
 > This dataset is provided *as is*, without warranties of any kind. While every effort has been made to ensure the accuracy and consistency of the data, **ProLiFIC may contain errors, omissions, or artifacts inherited from the source documents**.
@@ -133,5 +136,5 @@ If you use the ProLiFIC dataset in academic or applied research, please cite it 
   url          = {[]},
   note         = {Dataset available at \url{[}. Under review for BPM 2025 Demos \& Resources Forum.}
 }
-
+```
 📌 Note: This dataset is part of a paper currently under review at the BPM 2025 Demos & Resources Forum. We will update this citation with a DOI and formal reference once available
