@@ -92,7 +92,8 @@ A Jupyter notebook that demonstrates:
 
 - How to load and join the metadata and event logs via `case_id`
 - Filtering and cleaning methods (e.g., by legislature, date, chamber)
-- Examples of how to generate process maps or traces using disk-based storage
+- Prepare data for process mining with `pm4py`
+- Generate visualizations to compute descriptive statistics and explore temporal patterns
 
 ```python
 import pandas as pd
