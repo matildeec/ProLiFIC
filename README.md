@@ -18,7 +18,7 @@ __Test it online without any installation required!__
   - As of the time of writing, these are all the complete legislatures available in Normattiva which have been equipped with _Preparatory works_
   - We plan to update the dataset when data on newly completed legislatures will be available
 
-### Aligned with recent Legal PM and PM-LLMs trends
+### Alignment with recent Legal PM and PM-LLMs trends
 - Developed to support **Process Mining (PM)** analyses in legal settings, ProLiFIC aligns with recent trends in **Legal PM**:
   - See, e.g., [Challenges in Legal Process Discovery](https://ceur-ws.org/Vol-2952/paper_302a.pdf)
 
