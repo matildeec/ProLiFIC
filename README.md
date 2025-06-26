@@ -16,8 +16,8 @@ This repository includes:
 - **`ProLiFIC_event_log.csv`**  
   A procedural event log detailing the legislative trajectory of each case: timestamps, actions, committees, and actors involved.
 
-- **`ProLiFIC_preprocessing.ipynb`**  
-  A Jupyter notebook for loading, joining, and preprocessing the metadata and event logs. Includes guidance for generating process maps and filters.
+- **`ProLiFIC_EDA.ipynb`**  
+  A Jupyter notebook for exploratory data analysis of the ProLiFIC dataset. It includes loading and merging metadata with event logs, parsing timestamps, generating descriptive statistics, calculating case durations, and producing visualizations to support process mining and institutional research.
 
 - **`ProLiFIC_error_cases.txt`**  
   A plain-text list of `case_id`s that were either corrected or excluded due to formatting and structural issues—primarily from legislatures X–XVIII.
