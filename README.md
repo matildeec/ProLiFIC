@@ -142,13 +142,19 @@ We acknowledge and respect these terms by citing Normattiva and clearly indicati
 If you use the ProLiFIC dataset in academic or applied research, please cite it as follows:
 
 ```bibtex
-@inproceedings{2025prolific,
+@misc{2025prolific,
   title        = {The ProLiFIC Dataset: Leveraging LLMs to Unveil the Italian Lawmaking Process},
   author       = {Matilde Contestabile and Chiara Ferrara and Alberto Giovannetti and Giovanni Parrillo and Andrea Vandin},
   booktitle    = {BPM 2025 Demos \& Resources Forum, part of BPM 2025},
   year         = {2025},
-  url          = {[]},
-  note         = {Dataset available at \url{[]}. Under review for BPM 2025 Demos \& Resources Forum.}
+  eprint={2509.03528},
+  archivePrefix={arXiv},
+  url={https://arxiv.org/abs/2509.03528},
+  note         = {Dataset available at \url{[]}.}
 }
+
+
+
+
 ```
 📌 Note: This dataset is part of a paper currently under review at the BPM 2025 Demos & Resources Forum. We will update this citation with a DOI and formal reference once available
