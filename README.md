@@ -150,7 +150,7 @@ If you use the ProLiFIC dataset in academic or applied research, please cite it 
   eprint={2509.03528},
   archivePrefix={arXiv},
   url={https://arxiv.org/abs/2509.03528},
-  note         = {Dataset available at \url{[]}.}
+  note         = {Dataset available at \url{https://doi.org/10.5281/zenodo.15746419}.}
 }
 
 
