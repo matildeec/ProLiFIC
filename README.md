@@ -157,4 +157,4 @@ If you use the ProLiFIC dataset in academic or applied research, please cite it 
 
 
 ```
-📌 Note: This dataset is part of a paper currently under review at the BPM 2025 Demos & Resources Forum. We will update this citation with a DOI and formal reference once available
+📌 Note: This dataset is part of a paper currently under review. We will update this citation with a DOI and formal reference once available
